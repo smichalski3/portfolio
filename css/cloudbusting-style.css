@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    font-family: 'Bevan';
+    color: white;
+}
+
+.title{
+    font-family: 'Beth Ellen';
+    margin-top: 0px;
+    text-align: center;
+}
+
+.author{
+    font-family: 'Bevan';
+    margin-bottom: 0%;
+    color: gray;
+}
+
+p{
+    font-size:20px;
+}
