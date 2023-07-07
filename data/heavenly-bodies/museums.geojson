@@ -1,0 +1,128 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Musée du Louvre",
+                "image": "img/museum pics/louvre.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3376,
+                    48.8606
+                ]
+            }
+        },
+ 
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "British Museum",
+                "image": "img/museum pics/british-museum.jpg"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.127,
+                    51.5194
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Archaeological Museum of Olympia",
+                "image":"img/museum pics/olympia-museum.jpg"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.6243,
+                    37.6394
+                ]
+            }
+        },
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "National Archaeological Museum of Athens",
+                "image":"img/museum pics/athens.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7328,
+                    37.989
+                ]
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Glyptothek",
+                "image": "img/museum pics/glypto.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5657,
+                    48.1463
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Delphi Archaeological Museum",
+                "image":"img/museum pics/delphi.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.499905,
+                    38.480167
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "National Archaeological Museum of Reggio Calabria",
+                "image":"img/museum pics/reggio.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.661944,
+                    38.111389
+                ]
+            },
+            "id": 11
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Acropolis Museum",
+                "image":"img/museum pics/acropolis.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7285,
+                    37.9684
+                ]
+            }
+        }
+    ]
+}

@@ -124,11 +124,14 @@ a:hover {
 }
 
 body {
-
     font-family:'Georgia', serif;
     background-color: #000000;
     color: #ffffff;
+    background-image: url("assets/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .card-container{
     padding-right:0;
     padding-left:0;
