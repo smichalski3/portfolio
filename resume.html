@@ -10,6 +10,15 @@
     <!--put your Bootstrap stylesheet links below this comment and above style.css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            background-image: url("assets/slide-1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style> 
+
 </head>
 
 <body>
@@ -18,7 +27,7 @@
         <!-- Container inside the navbar header to span the page -->
         <div class="container-fluid">
             <!-- Creates the navbar header -->
-            <a class="navbar-brand" href="index.html">Sophie's Maps</a>
+            <a class="navbar-brand" href="index.html">Sophie Michalski</a>
             <!-- This complex script is just for a hamburger button, which will appear on smaller screens -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" xmlns="http://www.w3.org/2000/svg">
@@ -35,9 +44,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="resume.html">Resume</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
                 </ul>
             </div> <!-- end .navbar-collapse -->
         </div> <!-- end .container-fluid -->
@@ -45,39 +51,104 @@
 
     <div class="jumbotron">
         <div class="jumbo-container">
-            <h2>Resume</h2>
+            
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1 resume">
+            <div class="resume-text col-md-10 col-md-offset-1 resume">
                 <h3>Skills</h3>
                 <p>
-                    Adobe Illustrator, Photoshop, and InDesign | ArcGIS Pro and Online 
+                    Adobe Photoshop, Illustrator, and InDesign; 
+                    ArcGIS Pro, Online, and StoryMaps; CSS, HTML, and JavaScript; 
+                    Git and Github; Mapbox Studio; QGIS; R and RStudio; SQL 
                 </p>
                 <hr>
                 <h3>Education</h3>
-                <h4>University of Wisconsin-Madison, expected graduation May 2023</h4>
+                <h4>University of Wisconsin-Madison, graduated May 2023</h4>
                 <ul>
                     <li>BA People-Environment Geography and Anthropology</li>
-                    <li>Dean's List Fall 2019, Fall 2020, Spring 2021, and Spring 2022</li>
+                    <li>Relevant coursework in cartography/GIS, spatial analysis, 
+                        graphic design, map art, UI/UX design, statistics, 
+                        environmental studies, archaeology, and museum studies</li>
                 </ul>
                 
                 <hr>
-                <h3>Work Experience</h3>
-                <h4>Kohler Art Library, June 2022 - present</h4>
+                <h3>Work and Professional Experience</h3>
+
+                <h4>Geospatial Technician at Mandli Communications (November 2023 - present)</h4>
                 <ul>
-                    <li>Provide customer service to library patrons</li>
-                    <li>Checked out books to patrons and helped them with other tasks</li>
-                    <li>Shelved books, managed book returns, and scanned library materials</li>
+                    <li>Post-processing geospatial and GPS data for Mandli's 
+                        various projects around the country
+                    </li>
+                    <li>Determining what orthographic projections are appropriate 
+                        to use for certain data depending on the area of data collection 
+                        and contract standards</li>
+                    <li>Adjusting SQL database values and editing highway facility
+                         type using shapefiles in QGIS
+                    </li>
+                    <li>Assessing vehicle system quality, including cameras, 
+                        LiDAR, and GPS, by collecting geospatial data in the Fitchburg area
+                    </li>
+                </ul>  
+
+                <h4>Student Archaeologist at Achill Island Field School (June - July 2023)</h4>
+                <ul>
+                    <li>Executed Phase I-III archaeological processes at a 
+                        nineteenth-century house site
+                    </li>
+                    <li>Identified and recorded artifacts, features, contexts, 
+                        and structures while maintaining accurate field logs 
+                        and photographing progress
+                    </li>
+                    <li>Used QGIS to work with vector and raster data, create 
+                        thematic maps, and georeference archaeological documentation 
+                        related to the excavation
+                    </li>
+                </ul>  
+
+                <h4>Library Assistant at Kohler Art Library (June 2022 - June 2023)</h4>
+                <ul>
+                    <li>Provided customer service to library patrons at the 
+                        circulation desk and over the phone                                                    
+                    </li>
+                    <li>Helped patrons with tasks such as checking out 
+                        library materials, locating materials, handling 
+                        sensitive materials, and using the library technology
+                    </li>
+                    <li>Contributed ideas for the library social media, 
+                        physical in-library displays, and promotional flyers
+                    </li>
                 </ul>    
-                <h4>Memorial Library, May 2021 - June 2022</h4>
+
+                <h4>Anthropology Collection Student Intern (January - May 2023)</h4>
                 <ul>
-                    <li>Shelved books, sorted library workrooms, and managed call slips</li>
-                    <li>Completed tasks like processing holds, returns, and requests</li>
-                    <li>Expanded skills like attention to detail, accuracy, and ability to work independently</li>
+                    <li>Designed, curated, and implemented a case exhibit in 
+                        the Sewell Social Sciences building under direction of 
+                        curator Elizabeth Leith  </li>
+                    <li>Curated information, text, graphics, and artifacts 
+                        to fit a specific theme 
+                    </li>
+                    <li>Selected and handled objects throughout 
+                        various anthropology collection areas following 
+                        best practice guidelines for handling artifacts 
+                    </li>
                 </ul>
+
+                <hr>
+                <h3>Awards</h3>
+                    <li>1st Place, UW-Madison 2023 Barbara Bartz Petchenik 
+                        Undergraduate Award in Cartographic Design                   
+                    </li>
+
+                <hr>
+                <h3>Presentations</h3>
+                    <li>“Fast Fashion’s Effects on College-Aged Women: A Case 
+                        Study of UW-Madison,” UW-Madison Geography Undergraduate 
+                        Colloquium, Madison, WI, December 2022.</li>
+
+
             </div>
         </div>
     </div>

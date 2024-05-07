@@ -1,16 +1,36 @@
+
+/* declaring font faces */
+
+@font-face {
+    font-family: bell;
+    src: url(fonts/BellTopoSans-Regular.otf);
+}
+
+@font-face {
+    font-family: cantique;
+    src: url(fonts/Cantique-Normal.otf);
+}
+
+@font-face {
+    font-family: alpine;
+    src: url(fonts/HighAlpine.otf);
+}
+
+
+
+
 /***** NAVBAR *****/
 
 .navbar {
-    background-color: #fff8dd;
+    background-color: #ffffff;
     border-radius: 0;
 }
 
 /* Navbar title */
 .navbar-default .navbar-brand {
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-weight: bold;
-    font-family: cursive;
+    color: rgb(224, 156, 193);
+    font-size: 47px;
+    font-family: alpine;
 }
 
 /* Navbar hover effects */
@@ -18,25 +38,25 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #de92d5;
+    color: rgb(221, 147, 124);
     text-decoration: none;
 }
 
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
-    color: rgb(0, 0, 0);
+    color: rgb(230, 185, 209);
     font-size: 16px;
     padding: 10px;
-}
+    font-family: bell;}
 
 /* Navbar collapsed styles */
 .navbar-toggler {
-    color: #fff;
+    color: rgb(148, 85, 48);
     border-color: #fff;
-    background-color: #000000;
+    background-color: rgb(224, 156, 193);
     border-radius: 4px;
     border: 1px solid;
-    fill: #de92d5;
+    fill: rgb(148, 85, 48);
     font-size: 16px;
     position: relative;
     margin-right: 10px;
@@ -44,9 +64,9 @@
 
 .navbar-toggler:hover,
 .navbar-toggler:focus {
-    background-color: #de92d5;
-    color: #242424;
-    fill: #242424;
+    background-color: rgb(224, 156, 193);
+    color: white;
+    fill: white;
     border-color: #fff;
 
 }
@@ -71,12 +91,13 @@
 /*** CARD ***/
 
 .card {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 
 .card:hover {
-    border-color: #de92d5;
+    border-color: rgb(235, 168, 134);
+    border-width: 7px;
 }
 
 .btn {
@@ -86,7 +107,7 @@
 }
 
 .btn:hover {
-    background-color: #de92d5;
+    background-color: rgb(224, 156, 193);
     color:#000000;
     border-color:#fff8dd
 }
@@ -113,10 +134,11 @@ p {
 
 a {
     color: #fff8dd;
+
 }
 
 a:hover {
-    color: #020082;
+    color: rgb(127, 162, 225);
 }
 
 .jumbo-container{
@@ -136,3 +158,58 @@ body {
     padding-right:0;
     padding-left:0;
 }
+
+h1 {
+    font-family: alpine;
+    padding-top: 250px;
+    font-size: 75px;
+    color: rgb(224, 156, 193);
+}
+
+.title-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.index-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.index-link {
+    color: rgb(225, 173, 202);
+    margin: 0 10px; /* Adjust spacing between links */
+    font-size: 18px;
+    font-family: bell;
+    text-decoration: none;
+}
+
+.index-link:hover {
+    color: rgb(221, 147, 124);
+}
+
+.about-text {
+    color: rgb(206, 139, 114);
+    font-family: bell;
+}
+
+.resume-text {
+    color:  rgb(206, 139, 114);
+    font-family: bell;
+}
+
+.food-waste-text {
+    color: rgb(171, 171, 171);
+    font-family: bell;
+}
+
+
+
+/*.footer {
+    color: purple;
+    padding-top: 350px;
+} */
