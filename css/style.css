@@ -17,8 +17,6 @@
 }
 
 
-
-
 /***** NAVBAR *****/
 
 .navbar {
@@ -93,12 +91,35 @@
 .card {
     background-color: rgb(255, 255, 255);
     width: 100%;
+    position: relative;
+}
+
+.card .map-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: alpine;
+    font-size: 40px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: rgb(78, 78, 78);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.601); /* Add slightly opaque background */
+    opacity: 0; /* Initially hide the title */
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* Ensures that the title does not interfere with hover effect */
+}
+
+.card:hover .map-title {
+    opacity: 1; /* Make map title fully visible on hover */
 }
 
 .card:hover {
     border-color: rgb(235, 168, 134);
-    border-width: 7px;
+    border-width: 0px;
 }
+
+
 
 .btn {
     color:#000000;
@@ -155,8 +176,11 @@ body {
 }
 
 .card-container{
-    padding-right:0;
-    padding-left:0;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+
 }
 
 h1 {
@@ -177,7 +201,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px; 
 }
 
 .index-link {
