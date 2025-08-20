@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "name": "tern-points-down", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"timestamp": "2017-08-30 13:19:00", "lat": 37.55932846, "long": -123.7648816}, "geometry": {"type": "Point", "coordinates": [-123.7648816, 37.55932846]}}]}
