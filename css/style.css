@@ -186,7 +186,7 @@ h1 {
     font-family: alpine;
     padding-top: 250px;
     font-size: 75px;
-    color: rgb(224, 156, 193);
+    color: rgb(207, 111, 163);
 }
 
 .title-class {
@@ -204,7 +204,7 @@ h1 {
 }
 
 .index-link {
-    color: rgb(225, 173, 202);
+    color: rgb(207, 111, 163);
     margin: 0 10px; /* Adjust spacing between links */
     font-size: 18px;
     font-family: bell;
@@ -212,7 +212,7 @@ h1 {
 }
 
 .index-link:hover {
-    color: rgb(221, 147, 124);
+    color: rgb(225, 173, 202);
 }
 
 .about-text {
@@ -232,7 +232,15 @@ h1 {
 
 
 
-/*.footer {
-    color: purple;
+.footer {
+    color: rgb(255, 255, 255);
     padding-top: 350px;
-} */
+    padding-bottom: 10px;
+    font-family: bell;
+    font-size: 10px; 
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
