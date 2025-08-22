@@ -18,37 +18,40 @@
             background-size: cover;
             width: 100vw;
             height: 100vh;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
     </style>
 
 </head>
 
 <body>
-    <div class="title">
-        <div class="container">
+  <div class="title">
+    <div class="container">
 
-            <div class="row">
-                <div class="col-md-4 offset-md-4 title-class">
-                    <h1>Sophie Michalski</h1>
-                </div>
-            </div>
-
-            <div class="index-links">
-                <a class="index-link index1" href="portfolio.html">Portfolio</a>
-                <a class="index-link index2" href="about.html">About</a>
-                <a class="index-link index3" href="resume.html">Resume</a>
-            </div>
-
-            <div class="footer">
-                <p><i>"Knowledge has entertained me and it has shaped me
-                    and it has failed me. Something in me still starves."</i> - Mary Oliver</p>
-            </div>
-
+      <div class="row">
+        <div class="col-md-4 offset-md-4 title-class">
+          <h1>Sophie Michalski</h1>
         </div>
+      </div>
+
+      <div class="index-links">
+        <a class="index-link index1" href="portfolio.html">Portfolio</a>
+        <a class="index-link index2" href="about.html">About</a>
+        <a class="index-link index3" href="resume.html">Resume</a>
+      </div>
+
     </div>
+  </div>
 
-    
-
+  <!-- Footer outside main container -->
+  <footer class="footer">
+    <p>
+      <i>"Knowledge has entertained me and it has shaped me
+      and it has failed me. Something in me still starves."</i> – Mary Oliver
+    </p>
+  </footer>
 
     <!--put your external script links here-->
     <script type="text/javascript" src="lib/jquery-3.5.1.min.js"></script>
